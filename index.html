@@ -5,61 +5,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ekspedisi Perdagangan Nusantara</title>
     <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
-            margin: 0;
             font-family: 'Segoe UI', Tahoma, sans-serif;
-            background: linear-gradient(135deg, #0f172a, #1e3a8a);
+            background: linear-gradient(135deg, #0c2d5e, #1e40af);
             color: white;
-            text-align: center;
             min-height: 100vh;
+            text-align: center;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
         }
         .header {
-            background: rgba(0,0,0,0.3);
-            padding: 30px;
-        }
-        .content {
-            max-width: 900px;
-            margin: 50px auto;
-            padding: 40px;
+            margin-bottom: 60px;
         }
         h1 {
-            font-size: 3.2rem;
-            margin: 20px 0;
+            font-size: 3.5rem;
             color: #facc15;
+            margin-bottom: 10px;
         }
         h2 {
-            font-size: 1.8rem;
-            margin: 15px 0;
+            font-size: 2rem;
+            margin-bottom: 8px;
+        }
+        p {
+            font-size: 1.3rem;
+            margin: 20px 0;
         }
         .btn {
             display: inline-block;
-            margin-top: 40px;
-            padding: 16px 40px;
+            margin-top: 50px;
+            padding: 18px 50px;
             background: #facc15;
             color: #1e2937;
-            font-size: 1.4rem;
+            font-size: 1.5rem;
             font-weight: bold;
             text-decoration: none;
             border-radius: 50px;
+            box-shadow: 0 8px 15px rgba(0,0,0,0.3);
         }
         .btn:hover {
             background: #eab308;
-            transform: scale(1.05);
+            transform: translateY(-5px);
         }
     </style>
 </head>
 <body>
-    <div class="header">
-        <h2>LAB VIRTUAL IPS</h2>
-        <h1>Ekspedisi Perdagangan Nusantara</h1>
-        <p>Kelas X SMA</p>
-    </div>
+    <div class="container">
+        <div class="header">
+            <h2>LAB VIRTUAL IPS</h2>
+            <h1>Ekspedisi Perdagangan Nusantara</h1>
+            <p>Kelas X SMA</p>
+        </div>
 
-    <div class="content">
         <h1>PERJALANAN REMPAH-REMPAH</h1>
-        <p style="font-size: 1.4rem; margin: 30px 0;">
-            Menelusuri sejarah perdagangan nusantara yang kaya akan rempah-rempah
-        </p>
+        <p>Menelusuri sejarah perdagangan nusantara yang kaya akan rempah-rempah</p>
+        
         <a href="halaman2.html" class="btn">MULAI EKSPEDISI →</a>
     </div>
 </body>
